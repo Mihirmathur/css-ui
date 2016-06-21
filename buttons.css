@@ -29,7 +29,7 @@
 }
 .box{
   padding-top: 10%;
-  background-color:transparent; ;
+  background-color:transparent;
   width:100px ;
   height:100px ;
 }
@@ -46,4 +46,28 @@
 
 #bar2{
   display: block;
+}
+
+/*css button 3*/
+
+
+.contain2{
+  width:100px ;
+  height:100px ;
+}
+.box2{
+  padding-top: 10%;
+  background-color:transparent;
+  width:100px ;
+  height:100px ;
+}
+
+.br{
+  margin-left:auto ;
+  margin-right:auto ;
+  background-color:black;
+  margin-bottom: 12% ;
+  width:80%;
+  height:17%;
+  border-radius:10px;
 }
