@@ -3,7 +3,7 @@
 .container {
   width: 100px;
   height: 100px;
-  margin: 0 auto;
+  margin: 0s;
   padding-top: 10px;
 }
 
@@ -20,4 +20,30 @@
   background-color: black;
   text-align: center;
   border-radius: 7px;
+}
+
+/*css button 2*/
+.contain{
+  width:100px ;
+  height:100px ;
+}
+.box{
+  padding-top: 10%;
+  background-color:transparent; ;
+  width:100px ;
+  height:100px ;
+}
+
+.bar{
+  margin-left:auto ;
+  margin-right:auto ;
+  background-color:black;
+  margin-bottom: 12% ;
+  width:80%;
+  height:17%;
+  border-radius:10px;
+}
+
+#bar2{
+  display: block;
 }
