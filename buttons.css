@@ -1,0 +1,22 @@
+.container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.empty {
+  width: auto;
+  height: 10px;
+}
+
+.line {
+  width: 80px;
+  height: 18px;
+  margin:0 auto;
+  margin-bottom: 12px;
+  background-color: black;
+  text-align: center;
+  border-radius: 7px;
+  
+}
