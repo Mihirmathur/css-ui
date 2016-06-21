@@ -14,9 +14,10 @@ $.fn.animateRotate = function(angle, duration, easing, complete) {
     });
   });
 };
+
 var x = true;
 $(document).ready(function() {
-  
+  /*js button 1*/
   $('.container').click(function() {   
     
     if(x){
@@ -47,5 +48,6 @@ $(document).ready(function() {
       x=true;
     }
   });
+
 
 });
