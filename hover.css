@@ -93,17 +93,7 @@
   height: 5%;
   width: 0%;
   position: absolute;
-  background: #F03A47;
-  
-}
-
-#hl1{
-  left: 0;
-  top:0;
-}
-
-#hl2{
-  right: 0;
+  background: #F03A47; 
 }
 
 .vline{
@@ -115,5 +105,40 @@
   backface-visibility: hidden;
   position: relative;
   opacity: .8;
+}
+
+.vline>.hl1{
+  left: 0;
+  top:0;
+}
+
+.vline>.hl2{
+  right: 0;
+}
+
+
+/*Border Anim*/
+.vline2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #F03A47;
+  backface-visibility: hidden;
+  position: relative;
+  opacity: .8;
+}
+.hline2{
+  height: 5%;
+  width: 0%;
+  position: absolute;
+  background: #F03A47; 
+}
+.vline2>.hl1{
+  left: 0%;
+}
+
+.vline2>.hl2{
+  right: 0%;
 }
 
